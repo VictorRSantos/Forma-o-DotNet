@@ -20,6 +20,20 @@ namespace _03_ByteBank
 
 
 
+            ContaCorrente contaGabrielaCosta = new ContaCorrente();
+
+            contaGabrielaCosta.titular = "Gabriela";
+            contaGabrielaCosta.agencia = 863;
+            contaGabrielaCosta.numero = 863452;
+
+
+            Console.WriteLine(contaGabriela == contaGabrielaCosta);
+
+
+
+            Console.ReadKey();
+
+
 
         }
     }
