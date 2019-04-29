@@ -13,6 +13,9 @@ namespace _05_ByteBank
         public string cpf;
         public string profissao;
 
-
+        public static implicit operator string(Cliente v)
+        {
+            throw new NotImplementedException(v);
+        }
     }
 }
