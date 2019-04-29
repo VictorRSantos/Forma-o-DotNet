@@ -4,12 +4,11 @@ namespace _05_ByteBank
 {
     public class ContaCorrente
     {
-
-        public Cliente titular;
+        public string titular;
+        public double saldo;
         public int agencia;
-        public int numero;
-        public double saldo = 100;
-
+        public int numero;        
+        
 
         public bool Sacar(double valor)
         {
